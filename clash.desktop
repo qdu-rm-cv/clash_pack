@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=clash
+Comment=clash for windows
+Exec=/home/USER/clash/cfw
+Icon=/home/USER/clash/logo_64.png
+Type=Application
+StartupNotify=false
+StartupWMClass=Code
+Categories=Development;
+Keywords=clash;
