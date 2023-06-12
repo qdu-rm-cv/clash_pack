@@ -14,9 +14,11 @@ A simple encapsulation of the out-of-the-box version of *clash_for_windows_pkg* 
    2. 汉化采用`Clash_Chinese_Patch` 来自[Github](https://github.com/BoyceLig/Clash_Chinese_Patch.git)
    3. logo使用`clash_for_windows_pkg(Windows)`提供 来自[Github](https://github.com/Fndroid/clash_for_windows_pkg)
 2. `Application.desktop`为桌面应用启动文件
-3. `install.sh`为快捷安装脚本，默认安装位置为`/home/${USER}/clash/`
+3. `install.sh`为快捷安装脚本，默认安装位置为`/home/$(whoami)/clash/`
 
 ## How to use
+
+> Install
 
 ```bash
 git clone https://github.com/qdu-rm-cv/clash_pack.git
@@ -26,9 +28,22 @@ sudo chmod 777 ./install.sh
 # Then press Alt+F2, and input r, enter.
 ```
 
+> Update
+
+```bash
+bash ./auto_pack.sh
+```
+
+## Contribute
+
+```bash
+sudo apt install git-lfs
+git lfs install
+```
+
 ## Version
 
 | Package Name          | Description |
 | :-------------------- | :---------- |
-| clash_for_windows_pkg | v0.20.24    |
-| Clash_Chinese_Patch   | v0.20.24    |
+| clash_for_windows_pkg | 0.20.24    |
+| Clash_Chinese_Patch   | 0.20.24    |
