@@ -45,5 +45,5 @@ git lfs install
 
 | Package Name          | Description |
 | :-------------------- | :---------- |
-| clash_for_windows_pkg | 0.20.24    |
-| Clash_Chinese_Patch   | 0.20.24    |
+| clash_for_windows_pkg | 0.20.25    |
+| Clash_Chinese_Patch   | 0.20.25    |
